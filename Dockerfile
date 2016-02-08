@@ -19,5 +19,3 @@ RUN yum install -y npm && yum clean all
 RUN npm install -g grunt-cli
 
 RUN sed "s#root /usr/share/nginx/html#root /srv#" /etc/nginx/nginx.conf
- 
-CMD service nginx restart
