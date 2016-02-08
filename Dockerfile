@@ -7,7 +7,6 @@ RUN yum -y update && yum clean all
 
 RUN yum install -y -q epel-release && yum clean all
 
-jss
 RUN yum install -y fontconfig freetype libfreetype.so.6 libfontconfig.so.1 bzip2 tar && yum clean all
 
 # NPM
