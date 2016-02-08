@@ -15,4 +15,4 @@ RUN yum install -y npm && yum clean all
 # Grunt (globally)
 RUN npm install -g grunt-cli
 
-RUN npm install
+CMD npm install
