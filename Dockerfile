@@ -3,7 +3,7 @@ MAINTAINER Liam Galvin
 
 WORKDIR /srv
 
-RUN yum -y update && yum cleAdservean all
+RUN yum -y update && yum clean all
 
 RUN yum install -y -q epel-release && yum clean all
 
