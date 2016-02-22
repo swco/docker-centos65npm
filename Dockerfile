@@ -11,6 +11,8 @@ RUN yum install -y fontconfig freetype libfreetype.so.6 libfontconfig.so.1 bzip2
 
 # NPM
 RUN yum install -y npm && yum clean all
+# Update NPM
+RUN npm install -g npm
 
 # Grunt (globally)
 RUN npm install -g grunt-cli
